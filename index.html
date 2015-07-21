@@ -1,0 +1,28 @@
+<html ng-app="instagramApp">
+<head>
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main-container">
+      <div class="menu">
+        <ul>
+          <li><a href="/#/">Home</a></li>
+          <li><a href="/#/about/"> About </a></li>
+          
+        </ul>
+      </div>
+      <ng-view></ng-view>
+    </div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/main/app.js"></script>
+    <script src="js/main/mainCtrl.js"></script>
+    <script src="js/main/mainService.js"></script>
+    <script src="js/about/aboutCtrl.js"></script>
+   
+
+
+
+</body>
+</html>
